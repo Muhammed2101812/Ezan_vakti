@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* TailwindCSS v4 CSS-first theme tokens */
+@theme {
+  --color-primary-50: #ecfdf5;
+  --color-primary-100: #d1fae5;
+  --color-primary-500: #10b981; /* Ana yeşil */
+  --color-primary-600: #059669;
+  --color-primary-700: #047857;
+  --color-primary-900: #064e3b;
+
+  --color-accent: #f59e0b; /* Amber - vurgu */
+
+  --font-display: "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", serif;
+}
+
+/* Dark mode custom variant */
+@custom-variant dark (&:where(.dark, .dark *));
